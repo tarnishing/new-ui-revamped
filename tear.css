@@ -301,17 +301,6 @@ nav.guilds__242ed { /* Targeting the nav element with a specific class */
     margin-bottom: unset;
 }
 
-/* Combined styling for adding "@" before usernames */
-.visual-refresh .userTagUsername__63ed3::before,
-.userPopout-2n-Blz .userTagUsername__63ed3::before,
-.profileModal-2a8qX3 .userTagUsername__63ed3::before,
-.message-2qRu3W .userTagUsername__63ed3::before,
-.chat-3bRxxu .userTagUsername__63ed3::before,
-.panels-j1Uci_ .userTagUsername__63ed3::before {
-    content: "@";
-    color: var(--text-muted);
-}
-
 /* DM link plated adjustments */
 .dm_ [class*="linkPlated_"] { padding-right: var(--space-16); }
 .dm_ [class*="closeButtonPlated_"] {
